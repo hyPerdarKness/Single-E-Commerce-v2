@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index.html index.php [NC]
+RewriteRule ^siparisver.html siparisver.php [NC]
+RewriteRule ^odemebildirimi.html odemebildirimi.php [NC]
+RewriteRule ^blog.html blog.php [NC]
+RewriteRule ^yorumlar.html yorumlar.php [NC]
+RewriteRule ^iletisim.html iletisim.php [NC]
+RewriteRule ^sayfa/(.*).html pages.php?url=$1 [NC]
+RewriteRule ^blog/(.*).html single.php?url=$1 [NC]
